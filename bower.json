@@ -7,10 +7,6 @@
     "polymer",
     "menu"
   ],
-  "main": [
-    "side-menu.html",
-    "side-submenu.html"
-  ],
   "private": true,
   "repository": {
     "type": "git",
