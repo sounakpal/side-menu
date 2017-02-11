@@ -1,24 +1,22 @@
 {
-  "name": "paper-menu",
-  "version": "1.2.2",
+  "name": "side-menu",
   "description": "Implements an accessible material design menu",
-  "authors": "The Polymer Authors",
   "keywords": [
     "web-components",
     "polymer",
     "menu"
   ],
   "main": [
-    "paper-menu.html",
-    "paper-submenu.html"
+    "side-menu.html",
+    "side-submenu.html"
   ],
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-menu"
+    "url": "git://github.com/sounakpal/side-menu"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/paper-menu",
+  "homepage": "https://github.com/sounakpal/side-menu",
   "ignore": [],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.1.0",
