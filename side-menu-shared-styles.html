@@ -45,6 +45,22 @@
       .selectable-content > ::content > *[colored]:focus:after {
         /*opacity: 0.26;*/
       }
+       ::content paper-item {
+            padding: 0 20px;
+            background: var(--app-menu-item-bg, #262934);
+            text-transform: uppercase;
+            margin-bottom: 1px;
+            color: var(--app-menu-color, #797a81);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        
+        ::content paper-item:hover {
+            background: var(--menu-bg-color, #2d313e);
+        }
     </style>
   </template>
 </dom-module>

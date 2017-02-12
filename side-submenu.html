@@ -51,28 +51,13 @@ item has bolded text. Please see the `<side-menu>` docs for which attributes
           background: var(--app-primary-color, #5da9dd);
           padding: 10px 0;
         }
-        ::content paper-item {
-            --paper-item-min-height: 62px;
-            padding: 0 20px;
-            background: var(--app-menu-item-bg, #262934);
-            text-transform: uppercase;
-            margin-bottom: 1px;
-            color: var(--app-menu-color, #797a81);
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            -o-user-select: none;
-            user-select: none;
-        }
+       
         ::content side-menu paper-item{
             --paper-item-min-height: 35px;
           background: transparent;
           color: #fff;
           padding-left: 66px;
           margin-bottom: 0;
-        }
-        ::content paper-item:hover {
-            background: var(--menu-bg-color, #2d313e);
         }
         ::content .menu-trigger.iron-selected iron-icon:last-child{
           transform: rotate(90deg);
